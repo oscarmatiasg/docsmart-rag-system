@@ -299,8 +299,8 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 - **Course**: Building Generative AI Applications with Amazon Bedrock
 - **Project**: Final Capstone Project
 - **Email**: your.email@example.com
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
-- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **LinkedIn**: [Your Profile](https://linkedin.com/in/oscarmatiasg)
+- **GitHub**: [@yourusername](https://github.com/oscarmatiasg)
 
 ---
 
@@ -333,8 +333,8 @@ The program focuses on:
 ## 📞 Support
 
 For questions or issues:
-- 📧 Email: your.email@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/docsmart-rag-system/issues)
+- 📧 Email: oscarmatiasg@lutflow.com
+- 🐛 Issues: [GitHub Issues](https://github.com/oscarmatiasg/docsmart-rag-system/issues)
 - 📖 AWS Bedrock Docs: https://docs.aws.amazon.com/bedrock/
 
 ---
