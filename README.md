@@ -755,7 +755,7 @@ Desarrollado como parte del proyecto de **Building GenAI Applications with Amazo
 ## 📞 Soporte
 
 Para preguntas o problemas:
-- 📧 Email: support@docsmart.ai
+- 📧 Email: oscarmatiasg@lutflow.com
 - 💬 Issues: GitHub Issues
 - 📖 Docs: [documentation-url]
 
