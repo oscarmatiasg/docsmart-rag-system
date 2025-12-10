@@ -1,0 +1,34 @@
+# Example Terraform Variables for Stack 1 - Infrastructure
+# Copy this file to terraform.tfvars and update with your actual values
+# WARNING: Never commit terraform.tfvars to version control!
+
+# ============================================================================
+# AWS Configuration
+# ============================================================================
+aws_region   = "us-east-1"  # Change if deploying to different region
+environment  = "dev"         # dev, staging, or prod
+project_name = "docsmart"    # Keep consistent across stacks
+
+# ============================================================================
+# VPC Configuration
+# ============================================================================
+vpc_cidr             = "10.0.0.0/16"
+public_subnet_count  = 2
+private_subnet_count = 2
+
+# ============================================================================
+# Aurora Serverless v2 Configuration
+# ============================================================================
+aurora_engine_version    = "15.14"  # PostgreSQL version (15.6-15.14 supported)
+database_name            = "docsmart_kb"
+database_master_username = "dbadmin"
+database_master_password = "CHANGE_ME_TO_SECURE_PASSWORD_123!"  # CRITICAL: Change this!
+aurora_min_capacity      = 0.5  # Minimum ACU (0.5-128)
+aurora_max_capacity      = 2    # Maximum ACU (0.5-128)
+
+# ============================================================================
+# S3 Configuration
+# ============================================================================
+# IMPORTANT: S3 bucket names must be globally unique
+# Replace XXXXXXXXXXXX with your AWS Account ID
+s3_bucket_name = "docsmart-documents-XXXXXXXXXXXX"

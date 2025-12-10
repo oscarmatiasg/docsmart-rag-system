@@ -1,0 +1,90 @@
+# Environment variables - CRITICAL SECURITY
+.env
+.env.local
+.env.*.local
+.env.backup
+*.env
+*_credentials.json
+*_secrets.json
+aws_credentials.txt
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Data
+data/
+temp/
+uploads/
+*.csv
+*.db
+
+# Terraform - CRITICAL SECURITY
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+**/terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# AWS Credentials - CRITICAL SECURITY
+*credentials*
+!.env.example
+!stack1/terraform.tfvars.example
+!stack2/terraform.tfvars.example
+
+# Backups and Deprecated
+.backups/
+deprecated/
+
+# Screenshots (opcional - comentar si quieres incluirlas)
+# screenshots/*.png
+# screenshots/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs
+test_output/
+*.test.log
